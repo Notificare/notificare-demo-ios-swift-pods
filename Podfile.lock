@@ -1,0 +1,16 @@
+PODS:
+  - notificare-push-lib (2.5.0)
+
+DEPENDENCIES:
+  - notificare-push-lib (~> 2.5)
+
+SPEC REPOS:
+  trunk:
+    - notificare-push-lib
+
+SPEC CHECKSUMS:
+  notificare-push-lib: 3143ce67ef7b709f5816bd9d0c327c8f16228b5c
+
+PODFILE CHECKSUM: 797a8cff34ad4f71b1f7da87e591f531792cc496
+
+COCOAPODS: 1.9.3

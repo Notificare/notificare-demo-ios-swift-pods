@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3158720C0FD7DFB11D941EE03F165E28 /* notificare-push-lib-iOS14.4 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1AC3997A8F3EBECDECC80B8669A9BDFF /* Build configuration list for PBXAggregateTarget "notificare-push-lib-iOS14.4" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "notificare-push-lib-iOS14.4";
+		};
+		8FF4F62E104E6B6BF44E7EB0E749B878 /* notificare-push-lib-iOS14.0 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4134CE4B383F10EB9A36C8574F47A8F8 /* Build configuration list for PBXAggregateTarget "notificare-push-lib-iOS14.0" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "notificare-push-lib-iOS14.0";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		68D567694700EAFF97C339E56F704B36 /* Pods-DemoSwiftPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EAC0CDD69F3BC6D68F8018B38A5B4 /* Pods-DemoSwiftPods-dummy.m */; };
+		E8EB3DC0920E0F37CA2B27A5E0550448 /* Pods-notification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B91B7E5C08D5510F52A78A976D2C3B8 /* Pods-notification-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D9B01B2ACFE8AC1C418131325EA9EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FF4F62E104E6B6BF44E7EB0E749B878;
+			remoteInfo = "notificare-push-lib-iOS14.0";
+		};
+		EB04BE6FC1B84BE758FDECBE27A1B2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3158720C0FD7DFB11D941EE03F165E28;
+			remoteInfo = "notificare-push-lib-iOS14.4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0162FE3156165F9D83B589FF2E13F280 /* NotificareLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareLocation.h; path = NotificarePushLib/NotificareLocation.h; sourceTree = "<group>"; };
+		021F0F16E055FA0026AB2FF3F788B3A6 /* NotificareSystemNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareSystemNotification.h; path = NotificarePushLib/NotificareSystemNotification.h; sourceTree = "<group>"; };
+		02EEB564711B5C04A07F147202F8F90D /* Pods-notification-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-notification-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05D51DEF98BF874FEAB84CFEAE36D009 /* NotificareHeading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareHeading.h; path = NotificarePushLib/NotificareHeading.h; sourceTree = "<group>"; };
+		06C7846E64A8AB9B39942853641E6CA5 /* SKProduct+priceAsString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKProduct+priceAsString.h"; path = "NotificarePushLib/SKProduct+priceAsString.h"; sourceTree = "<group>"; };
+		08C85538221F4C230026BDD5E1931711 /* NSData+NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NotificareNXOAuth2.h"; path = "NotificarePushLib/NSData+NotificareNXOAuth2.h"; sourceTree = "<group>"; };
+		091893782DFDCC53DBBEF6FB0E486C7C /* NotificarePassbook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePassbook.h; path = NotificarePushLib/NotificarePassbook.h; sourceTree = "<group>"; };
+		09A4B7DFBCD799055F69FB55139F2C33 /* NotificareNetworkReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNetworkReachability.h; path = NotificarePushLib/NotificareNetworkReachability.h; sourceTree = "<group>"; };
+		0A79A09AF0FC9D88041ABDB70FE2FFA4 /* NotificareActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareActions.h; path = NotificarePushLib/NotificareActions.h; sourceTree = "<group>"; };
+		0BA40058F158B729ECF54192A4047F72 /* NotificareNone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNone.h; path = NotificarePushLib/NotificareNone.h; sourceTree = "<group>"; };
+		0BC982D641A1BD317F0D2511D6C2A4EB /* NotificationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationType.h; path = NotificarePushLib/NotificationType.h; sourceTree = "<group>"; };
+		0CF28856FA8FAE6F287D60B4CC45FEB5 /* NotificareNXOAuth2ClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2ClientDelegate.h; path = NotificarePushLib/NotificareNXOAuth2ClientDelegate.h; sourceTree = "<group>"; };
+		0F205CD6D5478810CB6669A84F973428 /* NotificareAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAsset.h; path = NotificarePushLib/NotificareAsset.h; sourceTree = "<group>"; };
+		134ACD2DED2BADFA2802DEF5E0C09E74 /* NotificarePushLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePushLib.h; path = NotificarePushLib/NotificarePushLib.h; sourceTree = "<group>"; };
+		180693F64A17B208AA7D58B87625EF96 /* NotificareStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareStorage.h; path = NotificarePushLib/NotificareStorage.h; sourceTree = "<group>"; };
+		1A81700A059E6B7585BAE0EA0BE3FAD9 /* NotificareMail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMail.h; path = NotificarePushLib/NotificareMail.h; sourceTree = "<group>"; };
+		1B0A5DAD600CA218B79DAEA7D1DE1924 /* NotificareLoyalty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareLoyalty.h; path = NotificarePushLib/NotificareLoyalty.h; sourceTree = "<group>"; };
+		1F1653AA4CAF5107AC6FCCC30C9BDF36 /* NotificareDeviceInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDeviceInbox.h; path = NotificarePushLib/NotificareDeviceInbox.h; sourceTree = "<group>"; };
+		233C16486DA64E22898F63149EB2382A /* Pods-notification-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-notification-resources.sh"; sourceTree = "<group>"; };
+		247773BFC9A9FA7C9667B04E426D4C21 /* NotificareLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareLogging.h; path = NotificarePushLib/NotificareLogging.h; sourceTree = "<group>"; };
+		24DE80209B57DBD1F8E92268F5D7CEF6 /* UIImage+FromBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FromBundle.h"; path = "NotificarePushLib/UIImage+FromBundle.h"; sourceTree = "<group>"; };
+		25934990F8461ABA649D96581C8CAA0B /* NSData+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Hex.h"; path = "NotificarePushLib/NSData+Hex.h"; sourceTree = "<group>"; };
+		2B114672CE476E877F1FD5F220F88AAA /* NotificareInboxManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareInboxManager.h; path = NotificarePushLib/NotificareInboxManager.h; sourceTree = "<group>"; };
+		2D250469407341E365A8338D3C234685 /* NotificareCrashReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareCrashReport.h; path = NotificarePushLib/NotificareCrashReport.h; sourceTree = "<group>"; };
+		2E3CDB2A8D0129371AB16F641CC79718 /* libPods-notification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-notification.a"; path = "libPods-notification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A70FA2EEFAC075553FB676FC1E9263 /* NSURL+NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+NotificareNXOAuth2.h"; path = "NotificarePushLib/NSURL+NotificareNXOAuth2.h"; sourceTree = "<group>"; };
+		30F22846B414560EFCAE6C3B7314953D /* NotificareApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareApp.h; path = NotificarePushLib/NotificareApp.h; sourceTree = "<group>"; };
+		33BD0D724338F98D85C04122B57973D0 /* NSString+NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NotificareNXOAuth2.h"; path = "NotificarePushLib/NSString+NotificareNXOAuth2.h"; sourceTree = "<group>"; };
+		3698A494E6F0EC67D5B61D257A0E3C76 /* Notificare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Notificare.h; path = NotificarePushLib/Notificare.h; sourceTree = "<group>"; };
+		391D29C5270A165E0BB19059C1BF631F /* NotificareScannable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareScannable.h; path = NotificarePushLib/NotificareScannable.h; sourceTree = "<group>"; };
+		415DED6C1ECDB56C0E38528F9D5E6B51 /* NotificareNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNetworkOperation.h; path = NotificarePushLib/NotificareNetworkOperation.h; sourceTree = "<group>"; };
+		4302A42EC9D1023B8FFFA490C85A0962 /* NotificareNXOAuth2Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Constants.h; path = NotificarePushLib/NotificareNXOAuth2Constants.h; sourceTree = "<group>"; };
+		435B28435B5A24393D88C4AC017A6229 /* NotificareNXOAuth2Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Client.h; path = NotificarePushLib/NotificareNXOAuth2Client.h; sourceTree = "<group>"; };
+		439440B6DED4DF5A173F10A683DB7460 /* notificare-push-lib-iOS14.4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "notificare-push-lib-iOS14.4.debug.xcconfig"; path = "../notificare-push-lib-iOS14.4/notificare-push-lib-iOS14.4.debug.xcconfig"; sourceTree = "<group>"; };
+		461785C181519DA8A40487CA31AB96F5 /* NotificareWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareWebView.h; path = NotificarePushLib/NotificareWebView.h; sourceTree = "<group>"; };
+		46A86E39EAFC1411166993C978996989 /* NotificareProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareProduct.h; path = NotificarePushLib/NotificareProduct.h; sourceTree = "<group>"; };
+		480CAA4BB4F470067AC3F5CCBC1960D9 /* NotificareUserData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUserData.h; path = NotificarePushLib/NotificareUserData.h; sourceTree = "<group>"; };
+		496201AA0569E7946CA1650007B57E9B /* Pods-notification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-notification.debug.xcconfig"; sourceTree = "<group>"; };
+		4AF413BB1CE96F9ED0054EC3B07E53ED /* NotificareUserPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUserPreference.h; path = NotificarePushLib/NotificareUserPreference.h; sourceTree = "<group>"; };
+		4B7259A03EE98DC2D09954327A5E6313 /* NotificareQRCodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareQRCodeScanner.h; path = NotificarePushLib/NotificareQRCodeScanner.h; sourceTree = "<group>"; };
+		4C04B86D2DCEB808BB7909AA6A38C7A1 /* ActionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionType.h; path = NotificarePushLib/ActionType.h; sourceTree = "<group>"; };
+		4D459E62604708FF1DA6D109B41AEC36 /* NotificareDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDefinitions.h; path = NotificarePushLib/NotificareDefinitions.h; sourceTree = "<group>"; };
+		4E08DD65827A2FC41343EEE63233618D /* NotificareNXOAuth2AccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2AccessToken.h; path = NotificarePushLib/NotificareNXOAuth2AccessToken.h; sourceTree = "<group>"; };
+		4EF82FF17FBF8C86093A6BBDEAC1192C /* NotificareNXOAuth2AccountStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2AccountStore.h; path = NotificarePushLib/NotificareNXOAuth2AccountStore.h; sourceTree = "<group>"; };
+		50774F48E3E8F9AAEC6F2EBEC02B98A2 /* notificare-push-lib-iOS14.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "notificare-push-lib-iOS14.0.release.xcconfig"; sourceTree = "<group>"; };
+		5379808A115214F6AD841FE1E6B2C064 /* NotificareDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDeviceManager.h; path = NotificarePushLib/NotificareDeviceManager.h; sourceTree = "<group>"; };
+		5725DF22168789C42A87E22A3BB60FEC /* NotificareTelephone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareTelephone.h; path = NotificarePushLib/NotificareTelephone.h; sourceTree = "<group>"; };
+		5B91B7E5C08D5510F52A78A976D2C3B8 /* Pods-notification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-notification-dummy.m"; sourceTree = "<group>"; };
+		5C3FD31FED650D707EEB8FF71B070969 /* NotificareNXOAuth2Connection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Connection.h; path = NotificarePushLib/NotificareNXOAuth2Connection.h; sourceTree = "<group>"; };
+		5ECCA5319F56A7A9F8014CB021C36732 /* NotificareURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareURL.h; path = NotificarePushLib/NotificareURL.h; sourceTree = "<group>"; };
+		60A80B676CCE64D6FBD48CDA883F3619 /* DefaultTheme.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = DefaultTheme.bundle; sourceTree = "<group>"; };
+		6358BC311FC935C2FEE32A79BAB9C23E /* NotificareMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMap.h; path = NotificarePushLib/NotificareMap.h; sourceTree = "<group>"; };
+		6585C8163B77A34C019FA8530CEADBEE /* NotificareAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAuth.h; path = NotificarePushLib/NotificareAuth.h; sourceTree = "<group>"; };
+		6A02F79D1BEAF8EE57CEC183A427726C /* Pods-DemoSwiftPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoSwiftPods.debug.xcconfig"; sourceTree = "<group>"; };
+		6A66F34B7F41E42F3AC15DA56420B8BD /* NotificareContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareContent.h; path = NotificarePushLib/NotificareContent.h; sourceTree = "<group>"; };
+		6C584153C140474F9802AF3F01A845D8 /* NotificareMonetize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMonetize.h; path = NotificarePushLib/NotificareMonetize.h; sourceTree = "<group>"; };
+		6D612334583A47B835F23C80C76379AB /* NSString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "NotificarePushLib/NSString+Utils.h"; sourceTree = "<group>"; };
+		6DAE8B50BE7E2F8E89763D437AF92D8E /* NotificareSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareSegment.h; path = NotificarePushLib/NotificareSegment.h; sourceTree = "<group>"; };
+		6F558DA45B41D6761B7F593384606584 /* NotificareNXOAuth2TrustDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2TrustDelegate.h; path = NotificarePushLib/NotificareNXOAuth2TrustDelegate.h; sourceTree = "<group>"; };
+		6F9AFDA45E227A51DF16609A12BCA4CB /* NotificareManagedDeviceInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareManagedDeviceInbox.h; path = NotificarePushLib/NotificareManagedDeviceInbox.h; sourceTree = "<group>"; };
+		728D2D0A7291738C13DD84A2E5B12072 /* NotificareNXOAuth2FileStreamWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2FileStreamWrapper.h; path = NotificarePushLib/NotificareNXOAuth2FileStreamWrapper.h; sourceTree = "<group>"; };
+		74EABD32C3D69ED11AE931C6A9CD11BF /* NotificareScannables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareScannables.h; path = NotificarePushLib/NotificareScannables.h; sourceTree = "<group>"; };
+		7B6AC22CD0433DD99A8B310B7C2616D3 /* NotificareNetworkHost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNetworkHost.h; path = NotificarePushLib/NotificareNetworkHost.h; sourceTree = "<group>"; };
+		7F693F67DE156D186DED6696A1E267C6 /* NotificareDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDevice.h; path = NotificarePushLib/NotificareDevice.h; sourceTree = "<group>"; };
+		818C750AC6F3FADF554D53D2CAF80264 /* Pods-notification-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-notification-acknowledgements.plist"; sourceTree = "<group>"; };
+		836583829D6DADD7C7F913135717CE1F /* NotificareMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMarker.h; path = NotificarePushLib/NotificareMarker.h; sourceTree = "<group>"; };
+		842BBE0429777C668170EAD24D5E5C93 /* NotificareUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUser.h; path = NotificarePushLib/NotificareUser.h; sourceTree = "<group>"; };
+		88068756A7C2063E201F130709394D9F /* NotificarePush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePush.h; path = NotificarePushLib/NotificarePush.h; sourceTree = "<group>"; };
+		8AFD3874DB6B5DCA709104584342F950 /* NotificareURLScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareURLScheme.h; path = NotificarePushLib/NotificareURLScheme.h; sourceTree = "<group>"; };
+		8FC046D885C5C47BC0BA9FD92BE19D1D /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "NotificarePushLib/UIColor+Hex.h"; sourceTree = "<group>"; };
+		997E1D60BEAB8BB63ADDDE0EAC2C7CCF /* NotificareAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAction.h; path = NotificarePushLib/NotificareAction.h; sourceTree = "<group>"; };
+		9C5B855D73CE9A005FE583373999D9E3 /* NotificareAppConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAppConfig.h; path = NotificarePushLib/NotificareAppConfig.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00C01415F6BE33A8A35E6B7E3F79252 /* NotificareManagedModels.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NotificareManagedModels.bundle; sourceTree = "<group>"; };
+		A45FBC4561C3D88DF132A4ACEF2525C5 /* NotificareNXOAuth2Account+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NotificareNXOAuth2Account+Private.h"; path = "NotificarePushLib/NotificareNXOAuth2Account+Private.h"; sourceTree = "<group>"; };
+		A4E437E5B4C3DBEBBF69EABDE0FCE41B /* NotificareVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareVideo.h; path = NotificarePushLib/NotificareVideo.h; sourceTree = "<group>"; };
+		AAC76299ED18156689B2B433AB46AFF9 /* NotificareRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareRate.h; path = NotificarePushLib/NotificareRate.h; sourceTree = "<group>"; };
+		AAD7FB6181C10DB5E5DCE876EBD2B46B /* NotificareNXOAuth2Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Request.h; path = NotificarePushLib/NotificareNXOAuth2Request.h; sourceTree = "<group>"; };
+		AEF7D0692E0BBF5859F02703462D901E /* NotificareCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareCallback.h; path = NotificarePushLib/NotificareCallback.h; sourceTree = "<group>"; };
+		AF4F0259358B35CA9267D57C8A409BB1 /* NotificareCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareCustom.h; path = NotificarePushLib/NotificareCustom.h; sourceTree = "<group>"; };
+		B032C9CF74E8AF302831FCF851D57359 /* ActionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionDelegate.h; path = NotificarePushLib/ActionDelegate.h; sourceTree = "<group>"; };
+		B0BA8983FF5D4460F0B2F86A551D8A3B /* NotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationDelegate.h; path = NotificarePushLib/NotificationDelegate.h; sourceTree = "<group>"; };
+		B258F372C66F4AA73F388EC612C8E213 /* Pods-DemoSwiftPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoSwiftPods.release.xcconfig"; sourceTree = "<group>"; };
+		B25ED5C67BBA850F52FC2FEC46A4A0A8 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TimeAgo.h"; path = "NotificarePushLib/NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		B6960AB673ED7D1AA20674913351EBA7 /* notificare-push-lib-iOS14.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "notificare-push-lib-iOS14.0.debug.xcconfig"; sourceTree = "<group>"; };
+		B69BB5AFA8676DFD102382E27402E05D /* NotificareNXOAuth2Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Account.h; path = NotificarePushLib/NotificareNXOAuth2Account.h; sourceTree = "<group>"; };
+		B746EE7544AAE08C751817C61239CF3E /* libPods-DemoSwiftPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DemoSwiftPods.a"; path = "libPods-DemoSwiftPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7A0CBE33C0BF3B03593C135D47C71E /* Pods-notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-notification.release.xcconfig"; sourceTree = "<group>"; };
+		BDD715936B21B5EF1E3BFD5583AA142F /* NotificareBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareBrowser.h; path = NotificarePushLib/NotificareBrowser.h; sourceTree = "<group>"; };
+		BECB278A714A20663457267BEDA7203F /* NotificareGeo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareGeo.h; path = NotificarePushLib/NotificareGeo.h; sourceTree = "<group>"; };
+		BFA1D5E613845DB603B0047293B2C55D /* NotificareDeviceDnD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDeviceDnD.h; path = NotificarePushLib/NotificareDeviceDnD.h; sourceTree = "<group>"; };
+		C0096FF8BAD1EF3B929CEA49EC2726D0 /* Pods-DemoSwiftPods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoSwiftPods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C46808B512C3C743DE330B632B83A184 /* notificare-push-lib-iOS14.4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "notificare-push-lib-iOS14.4.release.xcconfig"; path = "../notificare-push-lib-iOS14.4/notificare-push-lib-iOS14.4.release.xcconfig"; sourceTree = "<group>"; };
+		C54EAC0CDD69F3BC6D68F8018B38A5B4 /* Pods-DemoSwiftPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoSwiftPods-dummy.m"; sourceTree = "<group>"; };
+		C63B02BC849ECD9F7E250A9F205B8DB3 /* NotificareSMS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareSMS.h; path = NotificarePushLib/NotificareSMS.h; sourceTree = "<group>"; };
+		C6579B34ECA700F4ECFB32E9A75C1CDD /* NotificareNXOAuth2PostBodyStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2PostBodyStream.h; path = NotificarePushLib/NotificareNXOAuth2PostBodyStream.h; sourceTree = "<group>"; };
+		D141532192244BF7499A096D4C0F933F /* NotificareAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAttachment.h; path = NotificarePushLib/NotificareAttachment.h; sourceTree = "<group>"; };
+		D29D029BB4DA6D7AD0399F1421E34AAF /* NotificareStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareStore.h; path = NotificarePushLib/NotificareStore.h; sourceTree = "<group>"; };
+		D2E0170D502DC99833718C7C673D9DD0 /* NotificareBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareBeacon.h; path = NotificarePushLib/NotificareBeacon.h; sourceTree = "<group>"; };
+		D4C8BB27572FC032ACDB41D7CF5B5C70 /* NotificareVisit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareVisit.h; path = NotificarePushLib/NotificareVisit.h; sourceTree = "<group>"; };
+		D57AFC011A954ECECAE9FBC265EC7B70 /* NotificareRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareRegion.h; path = NotificarePushLib/NotificareRegion.h; sourceTree = "<group>"; };
+		D740A5628DA68B9851D091411A7FA282 /* NotificareNetworkWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNetworkWrapper.h; path = NotificarePushLib/NotificareNetworkWrapper.h; sourceTree = "<group>"; };
+		D9A59A1D473C883A7131E1CC86182616 /* NotificareWebPass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareWebPass.h; path = NotificarePushLib/NotificareWebPass.h; sourceTree = "<group>"; };
+		DF68C96A10B56E8F50136EC033B047F4 /* Pods-DemoSwiftPods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoSwiftPods-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2C6F72BD83974D109B28B738A4328D7 /* NotificareNXOAuth2ConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2ConnectionDelegate.h; path = NotificarePushLib/NotificareNXOAuth2ConnectionDelegate.h; sourceTree = "<group>"; };
+		E9F6123A34BC0C4C7163B729E825B129 /* NotificareApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareApplication.h; path = NotificarePushLib/NotificareApplication.h; sourceTree = "<group>"; };
+		EAEA2108405D7C7761138B94169DD376 /* NSString+FromBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FromBundle.h"; path = "NotificarePushLib/NSString+FromBundle.h"; sourceTree = "<group>"; };
+		EB7B451BA3A2800B27C37F00AF5F27EF /* NotificarePass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePass.h; path = NotificarePushLib/NotificarePass.h; sourceTree = "<group>"; };
+		EEF22D5E9FD697C8A695634854B86B02 /* NotificareEventLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareEventLogger.h; path = NotificarePushLib/NotificareEventLogger.h; sourceTree = "<group>"; };
+		F07AE0308892F8E635E4DB814706D4AB /* NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2.h; path = NotificarePushLib/NotificareNXOAuth2.h; sourceTree = "<group>"; };
+		F0D666741A6E894DAD4E2C64BE9EE334 /* NotificareNXOAuth2PostBodyPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2PostBodyPart.h; path = NotificarePushLib/NotificareNXOAuth2PostBodyPart.h; sourceTree = "<group>"; };
+		F1E87A5A56FD52B224D984647C0B0511 /* NotificareNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNotification.h; path = NotificarePushLib/NotificareNotification.h; sourceTree = "<group>"; };
+		F7A98C6ECA7B55CA259C79FC89444BC2 /* NotificareAppDelegateSurrogate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAppDelegateSurrogate.h; path = NotificarePushLib/NotificareAppDelegateSurrogate.h; sourceTree = "<group>"; };
+		FAB0E81CA80B35B58FC68564585DD480 /* NotificareImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareImage.h; path = NotificarePushLib/NotificareImage.h; sourceTree = "<group>"; };
+		FC9AFEF574AF7F7530D897DD8366E65F /* Pods-DemoSwiftPods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoSwiftPods-resources.sh"; sourceTree = "<group>"; };
+		FFEBAF9C6F3409A1D465F3F564F67758 /* NotificareAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAlert.h; path = NotificarePushLib/NotificareAlert.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E5F4F61CC209DC4243DA4E13B35315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E013C939236BEF2D4CAA2E697A5859DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D172146CE525740FEEB5276DD5B776 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D202C3ABC1FD13FB096A69A7A592D /* Pods-DemoSwiftPods */,
+				4D278E9A73F8432D34C2C09E32B5C679 /* Pods-notification */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		20AAB89CF54118C3D2765F2672EE3D5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60A80B676CCE64D6FBD48CDA883F3619 /* DefaultTheme.bundle */,
+				A00C01415F6BE33A8A35E6B7E3F79252 /* NotificareManagedModels.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D278E9A73F8432D34C2C09E32B5C679 /* Pods-notification */ = {
+			isa = PBXGroup;
+			children = (
+				02EEB564711B5C04A07F147202F8F90D /* Pods-notification-acknowledgements.markdown */,
+				818C750AC6F3FADF554D53D2CAF80264 /* Pods-notification-acknowledgements.plist */,
+				5B91B7E5C08D5510F52A78A976D2C3B8 /* Pods-notification-dummy.m */,
+				233C16486DA64E22898F63149EB2382A /* Pods-notification-resources.sh */,
+				496201AA0569E7946CA1650007B57E9B /* Pods-notification.debug.xcconfig */,
+				BD7A0CBE33C0BF3B03593C135D47C71E /* Pods-notification.release.xcconfig */,
+			);
+			name = "Pods-notification";
+			path = "Target Support Files/Pods-notification";
+			sourceTree = "<group>";
+		};
+		55DD684FBF747D24BCDC9211EC444DBB /* notificare-push-lib */ = {
+			isa = PBXGroup;
+			children = (
+				B032C9CF74E8AF302831FCF851D57359 /* ActionDelegate.h */,
+				4C04B86D2DCEB808BB7909AA6A38C7A1 /* ActionType.h */,
+				3698A494E6F0EC67D5B61D257A0E3C76 /* Notificare.h */,
+				997E1D60BEAB8BB63ADDDE0EAC2C7CCF /* NotificareAction.h */,
+				0A79A09AF0FC9D88041ABDB70FE2FFA4 /* NotificareActions.h */,
+				FFEBAF9C6F3409A1D465F3F564F67758 /* NotificareAlert.h */,
+				30F22846B414560EFCAE6C3B7314953D /* NotificareApp.h */,
+				9C5B855D73CE9A005FE583373999D9E3 /* NotificareAppConfig.h */,
+				F7A98C6ECA7B55CA259C79FC89444BC2 /* NotificareAppDelegateSurrogate.h */,
+				E9F6123A34BC0C4C7163B729E825B129 /* NotificareApplication.h */,
+				0F205CD6D5478810CB6669A84F973428 /* NotificareAsset.h */,
+				D141532192244BF7499A096D4C0F933F /* NotificareAttachment.h */,
+				6585C8163B77A34C019FA8530CEADBEE /* NotificareAuth.h */,
+				D2E0170D502DC99833718C7C673D9DD0 /* NotificareBeacon.h */,
+				BDD715936B21B5EF1E3BFD5583AA142F /* NotificareBrowser.h */,
+				AEF7D0692E0BBF5859F02703462D901E /* NotificareCallback.h */,
+				6A66F34B7F41E42F3AC15DA56420B8BD /* NotificareContent.h */,
+				2D250469407341E365A8338D3C234685 /* NotificareCrashReport.h */,
+				AF4F0259358B35CA9267D57C8A409BB1 /* NotificareCustom.h */,
+				4D459E62604708FF1DA6D109B41AEC36 /* NotificareDefinitions.h */,
+				7F693F67DE156D186DED6696A1E267C6 /* NotificareDevice.h */,
+				BFA1D5E613845DB603B0047293B2C55D /* NotificareDeviceDnD.h */,
+				1F1653AA4CAF5107AC6FCCC30C9BDF36 /* NotificareDeviceInbox.h */,
+				5379808A115214F6AD841FE1E6B2C064 /* NotificareDeviceManager.h */,
+				EEF22D5E9FD697C8A695634854B86B02 /* NotificareEventLogger.h */,
+				BECB278A714A20663457267BEDA7203F /* NotificareGeo.h */,
+				05D51DEF98BF874FEAB84CFEAE36D009 /* NotificareHeading.h */,
+				FAB0E81CA80B35B58FC68564585DD480 /* NotificareImage.h */,
+				2B114672CE476E877F1FD5F220F88AAA /* NotificareInboxManager.h */,
+				0162FE3156165F9D83B589FF2E13F280 /* NotificareLocation.h */,
+				247773BFC9A9FA7C9667B04E426D4C21 /* NotificareLogging.h */,
+				1B0A5DAD600CA218B79DAEA7D1DE1924 /* NotificareLoyalty.h */,
+				1A81700A059E6B7585BAE0EA0BE3FAD9 /* NotificareMail.h */,
+				6F9AFDA45E227A51DF16609A12BCA4CB /* NotificareManagedDeviceInbox.h */,
+				6358BC311FC935C2FEE32A79BAB9C23E /* NotificareMap.h */,
+				836583829D6DADD7C7F913135717CE1F /* NotificareMarker.h */,
+				6C584153C140474F9802AF3F01A845D8 /* NotificareMonetize.h */,
+				7B6AC22CD0433DD99A8B310B7C2616D3 /* NotificareNetworkHost.h */,
+				415DED6C1ECDB56C0E38528F9D5E6B51 /* NotificareNetworkOperation.h */,
+				09A4B7DFBCD799055F69FB55139F2C33 /* NotificareNetworkReachability.h */,
+				D740A5628DA68B9851D091411A7FA282 /* NotificareNetworkWrapper.h */,
+				0BA40058F158B729ECF54192A4047F72 /* NotificareNone.h */,
+				F1E87A5A56FD52B224D984647C0B0511 /* NotificareNotification.h */,
+				F07AE0308892F8E635E4DB814706D4AB /* NotificareNXOAuth2.h */,
+				4E08DD65827A2FC41343EEE63233618D /* NotificareNXOAuth2AccessToken.h */,
+				B69BB5AFA8676DFD102382E27402E05D /* NotificareNXOAuth2Account.h */,
+				A45FBC4561C3D88DF132A4ACEF2525C5 /* NotificareNXOAuth2Account+Private.h */,
+				4EF82FF17FBF8C86093A6BBDEAC1192C /* NotificareNXOAuth2AccountStore.h */,
+				435B28435B5A24393D88C4AC017A6229 /* NotificareNXOAuth2Client.h */,
+				0CF28856FA8FAE6F287D60B4CC45FEB5 /* NotificareNXOAuth2ClientDelegate.h */,
+				5C3FD31FED650D707EEB8FF71B070969 /* NotificareNXOAuth2Connection.h */,
+				E2C6F72BD83974D109B28B738A4328D7 /* NotificareNXOAuth2ConnectionDelegate.h */,
+				4302A42EC9D1023B8FFFA490C85A0962 /* NotificareNXOAuth2Constants.h */,
+				728D2D0A7291738C13DD84A2E5B12072 /* NotificareNXOAuth2FileStreamWrapper.h */,
+				F0D666741A6E894DAD4E2C64BE9EE334 /* NotificareNXOAuth2PostBodyPart.h */,
+				C6579B34ECA700F4ECFB32E9A75C1CDD /* NotificareNXOAuth2PostBodyStream.h */,
+				AAD7FB6181C10DB5E5DCE876EBD2B46B /* NotificareNXOAuth2Request.h */,
+				6F558DA45B41D6761B7F593384606584 /* NotificareNXOAuth2TrustDelegate.h */,
+				EB7B451BA3A2800B27C37F00AF5F27EF /* NotificarePass.h */,
+				091893782DFDCC53DBBEF6FB0E486C7C /* NotificarePassbook.h */,
+				46A86E39EAFC1411166993C978996989 /* NotificareProduct.h */,
+				88068756A7C2063E201F130709394D9F /* NotificarePush.h */,
+				134ACD2DED2BADFA2802DEF5E0C09E74 /* NotificarePushLib.h */,
+				4B7259A03EE98DC2D09954327A5E6313 /* NotificareQRCodeScanner.h */,
+				AAC76299ED18156689B2B433AB46AFF9 /* NotificareRate.h */,
+				D57AFC011A954ECECAE9FBC265EC7B70 /* NotificareRegion.h */,
+				391D29C5270A165E0BB19059C1BF631F /* NotificareScannable.h */,
+				74EABD32C3D69ED11AE931C6A9CD11BF /* NotificareScannables.h */,
+				6DAE8B50BE7E2F8E89763D437AF92D8E /* NotificareSegment.h */,
+				C63B02BC849ECD9F7E250A9F205B8DB3 /* NotificareSMS.h */,
+				180693F64A17B208AA7D58B87625EF96 /* NotificareStorage.h */,
+				D29D029BB4DA6D7AD0399F1421E34AAF /* NotificareStore.h */,
+				021F0F16E055FA0026AB2FF3F788B3A6 /* NotificareSystemNotification.h */,
+				5725DF22168789C42A87E22A3BB60FEC /* NotificareTelephone.h */,
+				5ECCA5319F56A7A9F8014CB021C36732 /* NotificareURL.h */,
+				8AFD3874DB6B5DCA709104584342F950 /* NotificareURLScheme.h */,
+				842BBE0429777C668170EAD24D5E5C93 /* NotificareUser.h */,
+				480CAA4BB4F470067AC3F5CCBC1960D9 /* NotificareUserData.h */,
+				4AF413BB1CE96F9ED0054EC3B07E53ED /* NotificareUserPreference.h */,
+				A4E437E5B4C3DBEBBF69EABDE0FCE41B /* NotificareVideo.h */,
+				D4C8BB27572FC032ACDB41D7CF5B5C70 /* NotificareVisit.h */,
+				D9A59A1D473C883A7131E1CC86182616 /* NotificareWebPass.h */,
+				461785C181519DA8A40487CA31AB96F5 /* NotificareWebView.h */,
+				B0BA8983FF5D4460F0B2F86A551D8A3B /* NotificationDelegate.h */,
+				0BC982D641A1BD317F0D2511D6C2A4EB /* NotificationType.h */,
+				25934990F8461ABA649D96581C8CAA0B /* NSData+Hex.h */,
+				08C85538221F4C230026BDD5E1931711 /* NSData+NotificareNXOAuth2.h */,
+				B25ED5C67BBA850F52FC2FEC46A4A0A8 /* NSDate+TimeAgo.h */,
+				EAEA2108405D7C7761138B94169DD376 /* NSString+FromBundle.h */,
+				33BD0D724338F98D85C04122B57973D0 /* NSString+NotificareNXOAuth2.h */,
+				6D612334583A47B835F23C80C76379AB /* NSString+Utils.h */,
+				30A70FA2EEFAC075553FB676FC1E9263 /* NSURL+NotificareNXOAuth2.h */,
+				06C7846E64A8AB9B39942853641E6CA5 /* SKProduct+priceAsString.h */,
+				8FC046D885C5C47BC0BA9FD92BE19D1D /* UIColor+Hex.h */,
+				24DE80209B57DBD1F8E92268F5D7CEF6 /* UIImage+FromBundle.h */,
+				20AAB89CF54118C3D2765F2672EE3D5D /* Resources */,
+				68DD11C738DC534CA360EC14F676C7ED /* Support Files */,
+			);
+			name = "notificare-push-lib";
+			path = "notificare-push-lib";
+			sourceTree = "<group>";
+		};
+		68DD11C738DC534CA360EC14F676C7ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6960AB673ED7D1AA20674913351EBA7 /* notificare-push-lib-iOS14.0.debug.xcconfig */,
+				50774F48E3E8F9AAEC6F2EBEC02B98A2 /* notificare-push-lib-iOS14.0.release.xcconfig */,
+				439440B6DED4DF5A173F10A683DB7460 /* notificare-push-lib-iOS14.4.debug.xcconfig */,
+				C46808B512C3C743DE330B632B83A184 /* notificare-push-lib-iOS14.4.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/notificare-push-lib-iOS14.0";
+			sourceTree = "<group>";
+		};
+		8E2D202C3ABC1FD13FB096A69A7A592D /* Pods-DemoSwiftPods */ = {
+			isa = PBXGroup;
+			children = (
+				C0096FF8BAD1EF3B929CEA49EC2726D0 /* Pods-DemoSwiftPods-acknowledgements.markdown */,
+				DF68C96A10B56E8F50136EC033B047F4 /* Pods-DemoSwiftPods-acknowledgements.plist */,
+				C54EAC0CDD69F3BC6D68F8018B38A5B4 /* Pods-DemoSwiftPods-dummy.m */,
+				FC9AFEF574AF7F7530D897DD8366E65F /* Pods-DemoSwiftPods-resources.sh */,
+				6A02F79D1BEAF8EE57CEC183A427726C /* Pods-DemoSwiftPods.debug.xcconfig */,
+				B258F372C66F4AA73F388EC612C8E213 /* Pods-DemoSwiftPods.release.xcconfig */,
+			);
+			name = "Pods-DemoSwiftPods";
+			path = "Target Support Files/Pods-DemoSwiftPods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DFA8D066A43007F5459093267B0CC510 /* Pods */,
+				FE3A6952BD71B99FC57B97D9F6F56BB7 /* Products */,
+				08D172146CE525740FEEB5276DD5B776 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA8D066A43007F5459093267B0CC510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55DD684FBF747D24BCDC9211EC444DBB /* notificare-push-lib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE3A6952BD71B99FC57B97D9F6F56BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B746EE7544AAE08C751817C61239CF3E /* libPods-DemoSwiftPods.a */,
+				2E3CDB2A8D0129371AB16F641CC79718 /* libPods-notification.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		082A441056B7E16C2089C169AC6FD951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FD9CC008AC842A322A5C8EEFF3E32A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70752C489CA4D2F6D1FEB28E4DCD2A1F /* Pods-notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBE718FE303BEA29ED293F96DFED58D /* Build configuration list for PBXNativeTarget "Pods-notification" */;
+			buildPhases = (
+				86FD9CC008AC842A322A5C8EEFF3E32A /* Headers */,
+				587CFE47538DE1A229218E66378C5E9F /* Sources */,
+				E013C939236BEF2D4CAA2E697A5859DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75D32EECBEE4F4F4A2ACCFACA18724E /* PBXTargetDependency */,
+			);
+			name = "Pods-notification";
+			productName = "Pods-notification";
+			productReference = 2E3CDB2A8D0129371AB16F641CC79718 /* libPods-notification.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F817A3463D352631ED2E4171476EED3E /* Pods-DemoSwiftPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB324393E32D78B9BC5540F0B21375B6 /* Build configuration list for PBXNativeTarget "Pods-DemoSwiftPods" */;
+			buildPhases = (
+				082A441056B7E16C2089C169AC6FD951 /* Headers */,
+				4868BD9A87BC49767296CC8CCB11D5B7 /* Sources */,
+				B9E5F4F61CC209DC4243DA4E13B35315 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F290AA5122370E7EC8D5B9B75BBBA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoSwiftPods";
+			productName = "Pods-DemoSwiftPods";
+			productReference = B746EE7544AAE08C751817C61239CF3E /* libPods-DemoSwiftPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE3A6952BD71B99FC57B97D9F6F56BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF4F62E104E6B6BF44E7EB0E749B878 /* notificare-push-lib-iOS14.0 */,
+				3158720C0FD7DFB11D941EE03F165E28 /* notificare-push-lib-iOS14.4 */,
+				F817A3463D352631ED2E4171476EED3E /* Pods-DemoSwiftPods */,
+				70752C489CA4D2F6D1FEB28E4DCD2A1F /* Pods-notification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4868BD9A87BC49767296CC8CCB11D5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D567694700EAFF97C339E56F704B36 /* Pods-DemoSwiftPods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587CFE47538DE1A229218E66378C5E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EB3DC0920E0F37CA2B27A5E0550448 /* Pods-notification-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A75D32EECBEE4F4F4A2ACCFACA18724E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "notificare-push-lib-iOS14.4";
+			target = 3158720C0FD7DFB11D941EE03F165E28 /* notificare-push-lib-iOS14.4 */;
+			targetProxy = EB04BE6FC1B84BE758FDECBE27A1B2F7 /* PBXContainerItemProxy */;
+		};
+		F0F290AA5122370E7EC8D5B9B75BBBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "notificare-push-lib-iOS14.0";
+			target = 8FF4F62E104E6B6BF44E7EB0E749B878 /* notificare-push-lib-iOS14.0 */;
+			targetProxy = 9D9B01B2ACFE8AC1C418131325EA9EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A4C4F11937670447E13C3E65C3F5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6960AB673ED7D1AA20674913351EBA7 /* notificare-push-lib-iOS14.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BC90DDF2FE6233FB6025D923F455F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7A0CBE33C0BF3B03593C135D47C71E /* Pods-notification.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346D849E8689F57D4121042771E6BE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A02F79D1BEAF8EE57CEC183A427726C /* Pods-DemoSwiftPods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DEC0B5E1528DEBD2D79C4EFC2F1EF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B258F372C66F4AA73F388EC612C8E213 /* Pods-DemoSwiftPods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5621F748543AC0AB623FC8444CD8EF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496201AA0569E7946CA1650007B57E9B /* Pods-notification.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E64C46E0CFA57D4D9D6C9597CA90704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439440B6DED4DF5A173F10A683DB7460 /* notificare-push-lib-iOS14.4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC3579DE337683ED7DD05462BF7C00C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46808B512C3C743DE330B632B83A184 /* notificare-push-lib-iOS14.4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA5520D646EC34D9138D73EA12AA6C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50774F48E3E8F9AAEC6F2EBEC02B98A2 /* notificare-push-lib-iOS14.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC3997A8F3EBECDECC80B8669A9BDFF /* Build configuration list for PBXAggregateTarget "notificare-push-lib-iOS14.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E64C46E0CFA57D4D9D6C9597CA90704 /* Debug */,
+				BC3579DE337683ED7DD05462BF7C00C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4134CE4B383F10EB9A36C8574F47A8F8 /* Build configuration list for PBXAggregateTarget "notificare-push-lib-iOS14.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A4C4F11937670447E13C3E65C3F5B3 /* Debug */,
+				DA5520D646EC34D9138D73EA12AA6C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBE718FE303BEA29ED293F96DFED58D /* Build configuration list for PBXNativeTarget "Pods-notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5621F748543AC0AB623FC8444CD8EF84 /* Debug */,
+				1BC90DDF2FE6233FB6025D923F455F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB324393E32D78B9BC5540F0B21375B6 /* Build configuration list for PBXNativeTarget "Pods-DemoSwiftPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346D849E8689F57D4121042771E6BE33 /* Debug */,
+				3DEC0B5E1528DEBD2D79C4EFC2F1EF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

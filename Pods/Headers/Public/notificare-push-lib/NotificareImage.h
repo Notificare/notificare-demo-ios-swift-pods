@@ -1,0 +1,1 @@
+../../../notificare-push-lib/NotificarePushLib/NotificareImage.h

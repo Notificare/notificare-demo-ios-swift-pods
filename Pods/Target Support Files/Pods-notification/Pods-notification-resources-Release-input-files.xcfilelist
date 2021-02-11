@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-notification/Pods-notification-resources.sh
+${PODS_ROOT}/notificare-push-lib/DefaultTheme.bundle
+${PODS_ROOT}/notificare-push-lib/NotificareManagedModels.bundle
